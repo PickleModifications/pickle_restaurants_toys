@@ -33,3 +33,11 @@ files {
 dependencies {
     'pickle_restaurants',
 }
+
+-- __INSTALL/ is operator paperwork, not runtime code: the toy item definitions to
+-- paste into your inventory and the icon to drop in its image folder. Escrow would
+-- otherwise encrypt the .lua files in there and hand the buyer a blob they can't
+-- read — which is the one thing those files exist to be. Kept open.
+escrow_ignore {
+    '__INSTALL/**',
+}
