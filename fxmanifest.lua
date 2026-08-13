@@ -4,7 +4,7 @@ lua54 'yes'
 
 author 'Pickle Modifications'
 description 'pickle_restaurants_toys - kids-meal toys for Pickle\'s Restaurants'
-version '1.0.0'
+version '1.0.1'
 
 -- Marks this resource as a Pickle's Restaurants add-on pack. The base resource
 -- does NOT discover packs by scanning for this — the handshake in dlc.lua is what
